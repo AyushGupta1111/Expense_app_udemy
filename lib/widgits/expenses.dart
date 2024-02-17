@@ -1,4 +1,4 @@
-import "package:expense_tracker_udemy/widgits/expenses_list.dart";
+import "package:expense_tracker_udemy/widgits/expanses_list/expenses_list.dart";
 import "package:expense_tracker_udemy/model/expense.dart";
 import "package:flutter/material.dart";
 
