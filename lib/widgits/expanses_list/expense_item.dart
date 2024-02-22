@@ -6,15 +6,18 @@ class ExpenseItem extends StatelessWidget{
   final Expanse expanse;
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(
-        horizontal: 20,
-        vertical: 16
-      ),
-      child: Card(
+    return
+       Card(
+         child: Padding(
+       padding: const EdgeInsets.symmetric(
+       horizontal: 20,
+           vertical: 16
+       ),
         child: Column(
           children: [
-            Text(expanse.title),
+            Text(expanse.title,
+            style: Theme.of(context).textTheme.titleLarge,
+            ),
             const SizedBox(height: 4,),
             Row(
               children: [
